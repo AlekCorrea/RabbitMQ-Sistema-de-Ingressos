@@ -35,6 +35,19 @@ Demonstrar os conceitos de:
 
 ---
 
+## Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+RABBITMQ_USER=admin
+RABBITMQ_PASS=admin
+RABBITMQ_HOST=localhost
+
+PORT=3000
+QUEUE_NAME=fila_ingressos
+```
+
 ## 📂 Estrutura do Projeto
 
 ```txt
